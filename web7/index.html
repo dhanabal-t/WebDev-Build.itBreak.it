@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         
+        <title>Password Generator</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="app.js" defer></script>
+    </head>
+    <body>
+        <div class="pw1">
+            <div class="pw2">
+                <div class="pw21">
+                    <span id="pw21">l823Zs78#Css09@ </span>
+                    <button id="copy">Copy</button>
+                </div>
+            </div>
+            <div class="pw3">
+                <div class="body1">
+                    <label for="len">Password Length</label>
+                    <input id="len" value="15" type="number" min="2" max="30" />
+                </div>
+                <div class="body1">
+                    <label for="upper">Uppercase Letters</label>
+                    <input id="upper" type="checkbox" />
+                </div>
+                <div class="body1">
+                    <label for="lower">Lowercase Letters</label>
+                    <input id="lower" type="checkbox" />
+                </div>
+                <div class="body1">
+                    <label for="number">Numbers</label>
+                    <input id="number" type="checkbox" />
+                </div>
+                <div class="body1">
+                    <label for="symbol">Symbols</label>
+                    <input id="symbol" type="checkbox" />
+                </div>
+                <button class="generate" id="generate">
+                    Generate Password
+                </button>
+            </div>
+        </div>
+    </body>
+</html>
